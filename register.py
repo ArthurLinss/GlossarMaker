@@ -29,8 +29,8 @@ def erstelle_glossar(pdf_datei, woerter, ausgabe_datei):
 
 
 # Beispielaufruf
-pdf_datei = '/Users/arthur/Documents/private/Vattenfall_BS/document_25.pdf'
-woerter = ['Arthur', 'Braunschweig', 'Serviceteam', 'Zählernummer',"Seite/Umfang"]
+pdf_datei = 'mypdffile.pdf'
+woerter = ['Zählernummer',"Seite"]
 ausgabe_datei = 'glossar.txt'
 
 erstelle_glossar(pdf_datei, woerter, ausgabe_datei)
